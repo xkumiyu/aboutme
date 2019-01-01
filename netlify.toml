@@ -6,3 +6,15 @@
   HUGO_VERSION = "0.50"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://xkumiyu.com/*"
+  to = "https://me.xkumiyu.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://xkumiyu.netlify.com/*"
+  to = "https://me.xkumiyu.com/:splat"
+  status = 301
+  force = true
